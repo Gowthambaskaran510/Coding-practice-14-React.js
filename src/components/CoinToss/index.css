@@ -1,0 +1,74 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 60vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.heading {
+  color: #a35200;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.img {
+  height: 30vh;
+  width: 30vh;
+}
+
+.paragraph {
+  color: #334155;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.btn {
+  background-color: #f9d423;
+  border-radius: 5px;
+  outline: none;
+  border: 0;
+  color: #a35200;
+  padding: 10px;
+  font-size: 10px;
+  font-weight: bolder;
+}
+.count-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .count-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 32px;
+  }
+}
+
+.count {
+  margin-left: 24px;
+  margin-right: 24px;
+  color: #475569;
+  font-weight: bolder;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
