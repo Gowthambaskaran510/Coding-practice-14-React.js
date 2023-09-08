@@ -49,9 +49,9 @@ class CoinToss extends Component {
           </button>
 
           <div className="count-container">
-            <p className="count">Total {totalCount}</p>
-            <p className="count">Heads {headsCount}</p>
-            <p className="count">Tails {tailsCount}</p>
+            <p className="count">Total:{totalCount}</p>
+            <p className="count">Heads:{headsCount}</p>
+            <p className="count">Tails:{tailsCount}</p>
           </div>
         </div>
       </div>
